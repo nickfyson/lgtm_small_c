@@ -1,0 +1,11 @@
+extraction:
+  cpp:
+    configure:
+      command:
+      - "cp helloworld.c generated.c"
+    index:
+      build_command: "gcc -c *.c"
+
+path_classifiers:
+  test:
+    - excluded.c
