@@ -1,5 +1,5 @@
 extraction:
-  cpp:
+  cpp_BREAK:
     configure:
       command:
       - "cp helloworld.c generated.c"
